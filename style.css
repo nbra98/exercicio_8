@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e7e7e7;
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#cabecalho img {
+  margin-right: 16px;
+}
+
+#cabecalho h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#form-contatos {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 56px;
+}
+
+#form-contatos input {
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 24px;
+  padding: 10px 15px;
+  margin-right: 20px;
+}
+
+#form-contatos #telefone-contato {
+  width: 308px;
+}
+
+#form-contatos button {
+  background-color: rgb(31, 48, 201);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+#form-contatos button:hover {
+  background-color: rgba(31, 48, 201, 0.8);
+}
+
+#table-contatos {
+  width: 100%;
+}
+
+#table-contatos th {
+  border-bottom: 2px solid #000;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px;
+}
+
+#table-contatos td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  text-align: center;
+  padding: 16px 0px;
+}
+
+#table-contatos td a img {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#table-contatos td a img:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition-duration: .5s;
+}

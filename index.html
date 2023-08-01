@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 8</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="cabecalho">
+      <img src="./images/contacts.svg" alt="Logo de Agenda de Contatos">
+      <h1>Agenda de Contatos</h1>
+    </div>
+    </header>
+
+    <form id="form-contatos">
+      <input id="nome-contato" type="text" placeholder="Nome do Contato" required>
+      <input id="telefone-contato" type="number" placeholder="Telefone do Contato" min="11" required> 
+      <button type="submit">Adicionar +</button>
+    </form>
+    <img src="" alt="">
+    <table id="table-contatos" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Nome do Contato</th>
+          <th>Número do Contato</th>
+          <th>Excluir</th>
+        </tr>
+      </thead>
+      <tbody id="table-corpo">
+        <!-- Aqui deve ir os novos contatos adicionados! -->
+      </tbody>
+    </table>
+  </div>  
+  
+</body>
+</html>
